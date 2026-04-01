@@ -3,7 +3,16 @@
     "allow": [
       "WebFetch(domain:serp.co.kr)",
       "WebSearch",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(for f:*)",
+      "Bash(do sed:*)",
+      "Bash(do)",
+      "Bash(echo \"=== $f.html ===\")",
+      "Read(//c/0.webcash/9999. Claude/wejemu Homepage/**)",
+      "Bash(done)",
+      "Bash(python3:*)",
+      "Read(//c/c/0.webcash/9999. Claude/wejemu Homepage/**)",
+      "Bash(gh pr:*)"
     ]
   }
 }
