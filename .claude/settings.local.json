@@ -3,7 +3,9 @@
     "allow": [
       "WebFetch(domain:serp.co.kr)",
       "WebSearch",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(for f:*)",
+      "Bash(do sed:*)"
     ]
   }
 }

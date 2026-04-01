@@ -59,7 +59,7 @@
 
     /* ===== HERO ===== */
     .hero {
-      background: linear-gradient(135deg, #0f3578 0%, #1a4fa0 55%, #2e6be6 100%);
+      background: linear-gradient(135deg, #0a2a5e 0%, #1a4fa0 55%, #2e6be6 100%);
       color: #fff; padding: 90px 24px 80px; position: relative; overflow: hidden;
     }
     .hero::before {
@@ -76,9 +76,9 @@
     .hero h1 em { color: #7eb8ff; font-style: normal; }
     .hero-desc { font-size: 17px; color: rgba(255,255,255,.85); line-height: 1.8; margin-bottom: 32px; max-width: 520px; }
     .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; }
-    .btn-hero-accent { background: var(--accent); color: #fff; padding: 14px 32px; font-size: 16px; border-radius: 8px; font-weight: 700; transition: all .2s; }
+    .btn-hero-accent { background: var(--accent); color: #fff; padding: 14px 32px; font-size: 16px; border-radius: 10px; font-weight: 700; transition: all .2s; }
     .btn-hero-accent:hover { background: #e05e00; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,0,.4); }
-    .btn-hero-outline { border: 2px solid rgba(255,255,255,.5); color: #fff; padding: 13px 30px; font-size: 16px; border-radius: 8px; font-weight: 600; transition: all .2s; }
+    .btn-hero-outline { border: 2px solid rgba(255,255,255,.5); color: #fff; padding: 13px 30px; font-size: 16px; border-radius: 10px; font-weight: 600; transition: all .2s; }
     .btn-hero-outline:hover { background: rgba(255,255,255,.1); border-color: #fff; }
     .hero-visual { flex: 0 0 420px; }
     .hero-card {
@@ -96,10 +96,10 @@
     .module-chip-label { font-size: 11px; font-weight: 700; color: rgba(255,255,255,.95); line-height: 1.3; }
 
     /* ===== Sections ===== */
-    section { padding: 80px 24px; }
+    section { padding: 100px 24px; }
     .section-inner { max-width: 1200px; margin: 0 auto; }
     .section-header { text-align: center; margin-bottom: 52px; }
-    .section-label { display: inline-block; color: var(--primary); font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; }
+    .section-label { display: inline-block; color: var(--primary); font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; background: rgba(26,79,160,0.08); padding: 5px 14px; border-radius: 20px; }
     .section-title { font-size: 32px; font-weight: 800; color: var(--text-dark); line-height: 1.3; letter-spacing: -0.5px; margin-bottom: 12px; }
     .section-desc { font-size: 16px; color: var(--text-mid); line-height: 1.8; max-width: 600px; margin: 0 auto; }
 
@@ -119,7 +119,7 @@
     .feature-card p { font-size: 14px; color: var(--text-mid); line-height: 1.8; }
 
     /* ===== Scraping highlight ===== */
-    .scraping { background: linear-gradient(135deg, #0f3578 0%, #2e6be6 100%); color: #fff; }
+    .scraping { background: linear-gradient(135deg, #0a2a5e 0%, #2e6be6 100%); color: #fff; }
     .scraping-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; gap: 60px; }
     .scraping-text { flex: 1; }
     .scraping-text .badge {
@@ -208,9 +208,9 @@
     .cta-box h2 { font-size: 28px; font-weight: 800; color: var(--text-dark); margin-bottom: 14px; letter-spacing: -0.5px; }
     .cta-box p { font-size: 16px; color: var(--text-mid); margin-bottom: 32px; line-height: 1.8; }
     .cta-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-    .btn-cta-primary { background: var(--primary); color: #fff; padding: 15px 40px; font-size: 16px; font-weight: 700; border-radius: 8px; transition: all .2s; }
+    .btn-cta-primary { background: var(--primary); color: #fff; padding: 15px 40px; font-size: 16px; font-weight: 700; border-radius: 10px; transition: all .2s; }
     .btn-cta-primary:hover { background: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(26,79,160,.3); }
-    .btn-cta-outline2 { border: 2px solid var(--primary); color: var(--primary); padding: 13px 38px; font-size: 16px; font-weight: 700; border-radius: 8px; transition: all .2s; }
+    .btn-cta-outline2 { border: 2px solid var(--primary); color: var(--primary); padding: 13px 38px; font-size: 16px; font-weight: 700; border-radius: 10px; transition: all .2s; }
     .btn-cta-outline2:hover { background: var(--primary); color: #fff; }
 
     /* ===== Footer ===== */
